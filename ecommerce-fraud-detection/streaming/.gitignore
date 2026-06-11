@@ -1,0 +1,11 @@
+# Dữ liệu xuất ra local (lớn, sinh lại được bằng export_data.py)
+data/
+
+# Model lưu local (nếu có) và checkpoint của Spark Structured Streaming
+model/
+*_chk/
+spark-warehouse/
+
+# Python
+__pycache__/
+*.pyc
